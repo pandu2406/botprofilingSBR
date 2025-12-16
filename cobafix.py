@@ -91,9 +91,9 @@ try:
     print("🧩 Halaman SSO siap, mengisi kredensial...")
 
     username_input.clear()
-    username_input.send_keys("septie") #isi username sso
+    username_input.send_keys("...") #isi username sso
     password_input.clear()
-    password_input.send_keys("wula63") #isi password sso
+    password_input.send_keys("...") #isi password sso
 
     login_button = wait.until(EC.element_to_be_clickable((By.ID, "kc-login")))
     login_button.click()
